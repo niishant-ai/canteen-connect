@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- AURA mark: white shopping-bag (Lucide bag) on sage -->
+    <group
+        android:scaleX="3.2"
+        android:scaleY="3.2"
+        android:translateX="16.8"
+        android:translateY="16.8">
+        <path
+            android:pathData="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"
+            android:fillColor="#FFFFFF" />
+        <path
+            android:pathData="M3 6h18"
+            android:strokeColor="#232528"
+            android:strokeWidth="1.6"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M16 10a4 4 0 0 1-8 0"
+            android:strokeColor="#232528"
+            android:strokeWidth="1.6"
+            android:strokeLineCap="round" />
+    </group>
+</vector>

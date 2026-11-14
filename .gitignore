@@ -1,0 +1,12 @@
+# Keep source, documentation, pinned dependency downloads, and the distributable APK.
+# Ignore generated compilation outputs and temporary build diagnostics.
+build/*
+!build/deps/
+!build/deps/**
+!build/build.sh
+!build/dl.sh
+!build/buildstatus.sh
+!build/runbuild.sh
+!build/wait_build.sh
+!build/gen_*.py
+!build/.gitkeep

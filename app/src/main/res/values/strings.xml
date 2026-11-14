@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AURA</string>
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">#F1EDE0</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:colorBackground">#F1EDE0</item>
+        <item name="android:windowBackground">#F1EDE0</item>
+    </style>
+</resources>
