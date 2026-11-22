@@ -28,6 +28,19 @@ Outputs:
 Re-runs are incremental only for downloads; compilation always recompiles.
 First full run ≈ 3–4 min (2× kotlinc + D8).
 
+## Build on a regular Linux machine
+`build/build_linux.sh` runs the same pipeline with tool paths from the environment
+(no Gradle). Tools used for the current APK: aapt2 8.7.3-12006047 (linux),
+D8 from r8 8.7.18, `platforms/android-35/android.jar` (platform-35_r02),
+kotlin-compiler 2.3.0 from Maven Central, apksigner + zipalign from apt.
+```sh
+AAPT2=/path/aapt2 ANDROID_JAR=/path/android-35/android.jar D8_JAR=/path/r8.jar \
+KOTLINC_CP=/path/kotlin-compiler-2.3.0.jar:/path/kotlin-stdlib-2.3.0.jar:... \
+sh build/build_linux.sh          # -> build/out/app-debug.apk (~2 min)
+```
+D8 prints many "error occurred when parsing kotlin metadata" warnings (R8 8.7
+predates Kotlin 2.3); they only concern metadata and do not affect the dex.
+
 ## Install & run
 With Shizuku/Wireless-ADB shell:
 ```sh

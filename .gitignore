@@ -10,3 +10,4 @@ build/*
 !build/wait_build.sh
 !build/gen_*.py
 !build/.gitkeep
+build/out/
