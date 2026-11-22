@@ -1,4 +1,4 @@
-# Canteen Connect — QA Test Plan
+# Canteen Mitra — QA Test Plan
 
 ## Static / build checks (run in this build)
 - [x] Kotlin compile, two passes (core → features): 0 errors

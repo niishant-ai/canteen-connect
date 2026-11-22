@@ -183,7 +183,7 @@ fun AboutScreen(onNav: (String) -> Unit, onBack: () -> Unit) {
                     .background(O.Blue, RoundedCornerShape(Radius.xl)),
                 contentAlignment = Alignment.Center
             ) {
-                IcBag(size = 44.dp, tint = Color.White, strokeWidth = 1.8f)
+                MitraMark(size = 52.dp)
             }
             Spacer(Modifier.height(Sp.s3))
             Text(Brand.NAME, fontSize = 22.sp, fontWeight = FontWeight.ExtraBold, color = O.Ink)

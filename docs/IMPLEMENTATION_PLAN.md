@@ -1,4 +1,4 @@
-# Canteen Connect — Implementation Plan (as executed)
+# Canteen Mitra — Implementation Plan (as executed)
 
 Phase 1 — Environment: inspected device toolchain. Gradle could not run on-device
 (jextractor requires libstdc++.so.6, absent); used the manual pipeline instead:

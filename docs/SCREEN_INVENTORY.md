@@ -1,4 +1,4 @@
-# Canteen Connect — Screen Inventory
+# Canteen Mitra — Screen Inventory
 
 | Route (in `core/navigation/Nav.kt`) | Composable | File | Purpose / nav |
 |---|---|---|---|

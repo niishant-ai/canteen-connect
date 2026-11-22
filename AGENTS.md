@@ -1,4 +1,4 @@
-# AGENTS — Canteen Connect development rules
+# AGENTS — Canteen Mitra development rules
 
 - **Language/stack**: Kotlin, Jetpack Compose (1.7.6), material3 1.3.0,
   coroutines 1.10.1. Single Activity + hand-rolled nav stack (`MainActivity`, `Nav.kt`).

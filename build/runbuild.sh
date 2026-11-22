@@ -1,5 +1,5 @@
 #!/system/bin/sh
-# Canteen Connect — background-safe build wrapper (fixes "Stream stalled - no data received for 90s").
+# Canteen Mitra — background-safe build wrapper (fixes "Stream stalled - no data received for 90s").
 #
 # Why this exists:
 #   sh build.sh run in the FOREGROUND can sit silent for 90-120s during the

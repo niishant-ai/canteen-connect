@@ -1,4 +1,4 @@
-# Canteen Connect — Demo Data
+# Canteen Mitra — Demo Data
 
 Everything is seeded in `data/demo/DemoData.kt` and is **fictional**: names,
 addresses, prices and ratings do not represent real registered canteens.

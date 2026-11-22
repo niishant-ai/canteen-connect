@@ -1,4 +1,4 @@
-# Canteen Connect — Design System
+# Canteen Mitra — Design System
 
 Implemented in `core/theme/Theme.kt` (`Brand`, `CC`, `Sp`, `Radius`, typography,
 light/dark color schemes) and `core/components/`.

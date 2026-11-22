@@ -1,4 +1,4 @@
-# Canteen Connect — User Flows
+# Canteen Mitra — User Flows
 
 Primary flow (first launch):
 

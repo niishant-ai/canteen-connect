@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate non-transitive library R classes for the Canteen Connect build.
+"""Generate non-transitive library R classes for the Canteen Mitra build.
 
 Inputs:
   ids.txt   : aapt2 --emit-ids output ("<pkg>:<type>/<name> = 0x7f..") from the

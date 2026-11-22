@@ -190,10 +190,10 @@ object DemoData {
     val notifications = buildList {
         fun t(i: Long, d: Long) = System.currentTimeMillis() - d
         add(DemoNotification("n1", "📦", "Order #CC-1042 updated", "Your pickup order from Sadar Canteen is now Ready for Pickup.", t(1, 0)))
-        add(DemoNotification("n2", "🏪", "New canteen near you", "Gachibowli IT Park Canteen just joined Canteen Connect.", t(1, 3600000 * 5)))
+        add(DemoNotification("n2", "🏪", "New canteen near you", "Gachibowli IT Park Canteen just joined Canteen Mitra.", t(1, 3600000 * 5)))
         add(DemoNotification("n3", "🎯", "Fresh stock alert", "Apples & Almonds are in stock at Hebbal Hub Canteen today.", t(1, 3600000 * 26)))
         add(DemoNotification("n4", "🎁", "Weekend offer", "On us: free delivery on orders above ₹300 this weekend (demo).", t(1, 3600000 * 48)))
-        add(DemoNotification("n5", "ℹ️", "Canteen Connect tips", "Use the Wishlist tab to save products and add them to your cart later.", t(1, 3600000 * 72)))
+        add(DemoNotification("n5", "ℹ️", "Canteen Mitra tips", "Use the Wishlist tab to save products and add them to your cart later.", t(1, 3600000 * 72)))
     }
 
     val addresses = listOf(

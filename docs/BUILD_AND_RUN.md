@@ -1,4 +1,4 @@
-# Canteen Connect — Build & Run
+# Canteen Mitra — Build & Run
 
 ## What works on this device
 The full Android Gradle toolchain cannot run here (Gradle's jextractor needs

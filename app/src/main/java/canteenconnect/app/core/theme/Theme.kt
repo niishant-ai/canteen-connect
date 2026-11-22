@@ -20,7 +20,7 @@ import androidx.compose.ui.unit.sp
  * so re-skinning the app is a single edit to this object.
  */
 object Brand {
-    const val NAME = "AURA"
+    const val NAME = "Canteen Mitra"
     const val TAGLINE = "Your Authorized Canteen Hub"
     const val CANTEEN_ID = "CTN45218"
     const val USER_NAME = "Naman Kumar"

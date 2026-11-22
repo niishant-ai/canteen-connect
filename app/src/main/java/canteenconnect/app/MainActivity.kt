@@ -26,7 +26,7 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.platform.ComposeView
 import canteenconnect.app.core.AppStore
 import canteenconnect.app.core.components.FloatingBottomNav
-import canteenconnect.app.core.icons.IcBag
+import canteenconnect.app.core.components.MitraMark
 import canteenconnect.app.core.navigation.Nav
 import canteenconnect.app.core.theme.Brand
 import canteenconnect.app.core.theme.O
@@ -248,11 +248,11 @@ private fun SplashScreen() {
                     ),
                 contentAlignment = Alignment.Center
             ) {
-                IcBag(size = 50.dp, tint = Color.White, strokeWidth = 1.7f)
+                MitraMark(size = 56.dp)
             }
             Spacer(Modifier.height(16.dp))
             Text(Brand.NAME, fontSize = 26.sp, fontWeight = FontWeight.ExtraBold,
-                letterSpacing = 6.sp, color = O.Ink)
+                letterSpacing = 1.sp, color = O.Ink)
             Text(Brand.TAGLINE, fontSize = 13.sp, color = O.Slate)
         }
     }

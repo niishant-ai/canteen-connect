@@ -61,7 +61,7 @@ fun OnboardingScreen(onFinish: () -> Unit) {
                 Brand.NAME,
                 fontSize = 18.sp,
                 fontWeight = FontWeight.ExtraBold,
-                letterSpacing = 3.sp,
+                letterSpacing = 0.5.sp,
                 color = O.Ink,
                 modifier = Modifier.weight(1f)
             )

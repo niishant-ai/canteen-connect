@@ -1,4 +1,4 @@
-# Canteen Connect — Product Requirements Document
+# Canteen Mitra — Product Requirements Document
 
 ## 1. Vision
 A premium, calm, mobile-first shopping experience for India's government canteen
@@ -8,7 +8,7 @@ apps but a distinct brand identity of its own.
 
 ## 2. Problem Statement
 Registered government canteens serve eligible members but have little discoverability:
-no unified catalogue, no cart, no order visibility. Canteen Connect defines the product
+no unified catalogue, no cart, no order visibility. Canteen Mitra defines the product
 experience for that ecosystem and, in this milestone, proves it end-to-end on fully
 local, demo data.
 

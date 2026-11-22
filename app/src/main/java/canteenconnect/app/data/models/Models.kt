@@ -1,6 +1,6 @@
 package canteenconnect.app.data.models
 
-/** Core demo data models for Canteen Connect.
+/** Core demo data models for Canteen Mitra.
  *  All records are demonstration data: names, addresses and prices are fictional
  *  and the app is not an officially endorsed government service. */
 

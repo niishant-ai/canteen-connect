@@ -1,5 +1,5 @@
 #!/system/bin/sh
-# Canteen Connect — on-device APK build (Gradle-free pipeline).
+# Canteen Mitra — on-device APK build (Gradle-free pipeline).
 # aapt2(res+libs) -> javac(app R) + generated lib R classes -> kotlinc x2 -> d8 -> apksigner
 set -eu
 W=/storage/emulated/0/Android/data/com.androidharness.app/files/workspace/ccapp

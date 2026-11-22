@@ -1,4 +1,6 @@
-# 🥣 Canteen Connect
+# 🥣 Canteen Mitra
+
+<img src="branding/canteen-mitra-logo.svg" alt="Canteen Mitra logo" width="96" align="right">
 
 A premium, fully working **demo** shopping app for India's government canteen
 ecosystem. Kotlin + Jetpack Compose, single-activity architecture, local seeded
@@ -36,6 +38,12 @@ pm install ccapp/app-debug.apk
 am start -n canteenconnect.app/.MainActivity
 ```
 Full details: `docs/BUILD_AND_RUN.md`.
+
+## Branding
+`branding/canteen-mitra-logo.svg` (app icon) and `branding/canteen-mitra-mark.svg`
+(transparent mark). The launcher icon (`res/drawable/ic_fg.xml`) and the in-app
+`MitraMark` composable use the same geometry. The package id stays
+`canteenconnect.app` (renaming it would be a different app to Android).
 
 ## Docs
 `docs/PRD.md` · `docs/USER_FLOWS.md` · `docs/DESIGN_SYSTEM.md` ·

@@ -1,4 +1,4 @@
-# Canteen Connect — Architecture
+# Canteen Mitra — Architecture
 
 ## Shape
 Single-module Kotlin/Compose app. MVVM-ish, with a single observable application
